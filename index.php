@@ -99,6 +99,6 @@ try {
 
     echo "La requête c'est bien déroulé.";
 }
-catch (PDOException $exception) {
+catch (PDOException $exception) { // catch = PAR DESUS LA TROISIEME COORDE !!!!!!
     echo $exception->getMessage();
 }
